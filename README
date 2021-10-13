@@ -1,0 +1,15 @@
+Implementation of BLC matrix factorisation recommendation, https://arxiv.org/abs/1509.05789
+
+Supports single and multi-processing plus use of GPU acceleration.
+
+Changelog:
+v0.0 Initial commit. NH
+v0.1 Added cross-validation. AC
+v0.2 Added regular matrix factorisation. 
+
+To Do:
+1. clipping
+2. rounding if input are in a finite set
+3. parameter exploration http://stackoverflow.com/questions/26821465/how-to-prepare-populate-and-explore-an-n-dimensional-numpy-array
+4. data visualisation (latent space etc)
+
